@@ -1,0 +1,23 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+#sub_menu{
+	float:left;
+	border: 3px solid #f1b950;
+	width:250px;
+	height:570px;
+	border-radius:10px;
+}
+#search_box {
+	margin-top:10px;
+	text-align: center;
+}
+#cate_menu{
+	padding:10px;
+}

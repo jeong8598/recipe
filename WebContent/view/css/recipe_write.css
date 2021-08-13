@@ -1,0 +1,251 @@
+.contents {
+	margin:100px auto;
+	width:1350px;
+}
+/* 내용div */
+#container {
+	border: 2px solid #a4a4a4;
+	border-radius: 10px;
+	padding: 50px 100px;
+	width: 1100px;
+	margin-bottom:100px;
+	float:left;
+	min-height:570px;
+}
+/* 버튼css */
+#recipe_write .btn, .getImg {
+	font-weight: 900;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	background:radial-gradient(#fce8bc,#f8d68c);
+	border: 1px solid white;
+	box-shadow: 1px 3px 3px 0px #D3D3D3;
+	margin-left: 8px;
+}
+
+.delIngre, .delContent {
+	font-weight: 900;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+	background: #D3D3D3;
+	border: 1px solid white;
+	box-shadow: 1px 3px 3px 0px #D3D3D3;
+}
+.delIngre:hover, .delContent:hover{
+	background:radial-gradient(#a4a4a4,#D3D3D3);
+}
+#stepBtn [type=button]:hover {
+	background:#f8d68c;
+}
+.imgBtn {
+	padding: 10px 0;
+}
+/* 각 항목 */
+.cont_wrap, .intro_wrap {
+	margin:30px 0;
+}
+.cont_wrap:after, .intro_wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#mainImg:after, .ingre:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 좌측타이틀설정---------------------- */
+.cont_wrap p.cont_tit, .intro_wrap p.cont_tit ,#mainImg_tit p.cont_tit, .ingre_tit p.cont_tit ,.step_tit p.cont_tit{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin:0 30px 0 0;
+	float: left;
+}
+/* 재료 */
+.ingre_tit,.step_tit {
+	width: 120px;
+	margin:0 30px 0 0;
+	float: left;
+}
+/* 메인이미지 */
+#mainImg_tit {
+	color: #145724;
+	width: 120px;
+	height: 350px;
+	line-height: 350px;
+	margin-right: 30px;
+	float: left;
+	padding: 150px 0;
+}
+#mainImgBtn{
+	margin-top:10px;
+}
+/*--------------------------------  */
+/* 메뉴카테고리 */
+.cont_wrap .sub {
+	line-height: 50px;
+	float: left;
+}
+/* 카테고리css */
+#container select {
+	height: 40px;
+	border: 2px solid #a4a4a4;
+}
+/* 텍스트입력css */
+#container input[type=text] {
+	padding-left: 10px;
+	height: 50px;
+	line-height: 50px;
+	border: 2px solid #a4a4a4;
+}
+.contText textarea {
+	resize: none;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #a4a4a4;
+	border-radius: 5px;
+	font-size: 16px;
+}
+/* 작성자--------------------------- */
+#nameBox{
+	line-height: 50px;
+}
+
+/* 음식소개-------------------------- */
+.intro_wrap textarea {
+	resize: none;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #a4a4a4;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/* 재료----------------------------- */
+.ingre {
+	margin: 30px 0;
+}
+.ingre_container {
+	width: 712px;
+	float: left;
+	margin: 0 auto;
+	padding-top: 10px;
+	height:auto;
+}
+.ingre_container span {
+	display: inline-block;
+	margin: 5px 10px;
+}
+.ingre:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 요리순서--------------------------- */
+#step_wrap{
+	overflow:hidden;
+	height:auto;
+}
+.contText textarea {
+	resize: none;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #a4a4a4;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.cont_container {
+	width: 712px;
+	float: left;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.contInner{
+	margin-bottom:30px;
+}
+.contInner .imgUpload {
+	width: 200px;
+	padding: 0;
+	margin-right: 15px;
+	padding-top: 10px;
+	float: left;
+	margin: 0 auto;
+}
+/* 조리법입력div */
+.contText {
+	float: left;
+	padding-top:15px;
+	padding-left:20px;
+}
+/* 조리순서삭제버튼 */
+.BtnBox {
+	padding-top: 80px;
+	padding-left: 15px;
+	float: left;
+}
+.cont_container:after, .contInner:after , .contText:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 마지막 수정취소버튼div */
+#last {
+	width:250px;
+	margin:0 auto;
+	text-align: center;
+	height:50px;
+}
+
+#submit {
+	float:left;
+	margin-right:50px;
+}
+
+#submit input[type=submit] {
+	font-weight: 900;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	background: #a4a4a4;
+	border: 1px solid white;
+	box-shadow: 1px 3px 3px 0px #D3D3D3;
+	background:radial-gradient(#fce8bc,#f8d68c);
+}
+#submit input[type=submit]:hover{
+	background:#f8d68c;
+}
+#cancel {
+	float:left;
+	margin:0;
+	font-weight: 900;
+	border-radius: 5px;
+	width: 100px;
+	line-height: 50px;
+	height: 50px;
+	background:radial-gradient(#fce8bc,#f8d68c);
+	border: 1px solid white;
+	box-shadow: 1px 3px 3px 0px #D3D3D3;
+	color: black;
+}
+#cancel:hover{
+	background:#f8d68c;
+}
+#cancel a {
+	text-decoration: none;
+	color: black;
+}
+
+#cancel a:hover {
+	text-decoration: none;
+}
+
+#last:after {
+	content: "";
+	display: block;
+	clear: both;
+}
